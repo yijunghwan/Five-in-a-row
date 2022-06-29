@@ -58,12 +58,12 @@ void end_graphic(int surrender)
 		if (t % 2 + 1 == 1)
 		{
 			system("cls");
-			printf("\n승자: 흑돌\n패자: 백돌");
+			printf("\n\n  승자: 흑돌\n\n  패자: 백돌\n\n");
 		}
 		else
 		{
 			system("cls");
-			printf("\n승자: 백돌\n패자: 흑돌");
+			printf("\n\n  승자: 백돌\n\n  패자: 흑돌\n\n");
 		}
 	}
 	else
@@ -72,12 +72,12 @@ void end_graphic(int surrender)
 		if (t % 2 + 1 == 1)
 		{
 			system("cls");
-			printf("\n승자: 백돌\n패자: 흑돌");
+			printf("\n\n  승자: 백돌\n\n  패자: 흑돌\n\n");
 		}
 		else
 		{
 			system("cls");
-			printf("\n승자: 흑돌\n패자: 백돌");
+			printf("\n\n  승자: 흑돌\n\n  패자: 백돌\n\n");
 		}
 	}
 }
