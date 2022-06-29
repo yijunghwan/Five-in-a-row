@@ -2,9 +2,9 @@
 #include <Windows.h>//system("cls") 사용을 위하여 포함
 #include <conio.h>//버퍼없고 에코없는 입력문을 사용하기 위하여 포함
 int MAP[19][19];//맵 변수                                      설명: [x축] [y축](제 4사분면 이라고 생각 하면됨)    0은 빈공간 2는 흑 1은 흰돌 3은 선택중
-int t = 0;//턴수 
+int t = 0;//턴수
 void  play_graphic();//맵 출력
-void end_graphic(int victor);//승패 출력
+void end_graphic(int surrender);//승패 출력
 int input(int* x, int* y);// 사용자의 입력 함수                설명: 이후 함수들에도 사용될 좌표 정보를 위하여 포인터 함수 사용
 int check_end(int x, int y);//게임의 끝 판단 및 끝냄 함수
 int main()
