@@ -48,7 +48,7 @@ void play_graphic()
 		}
 		printf("\n");
 	}
-	printf("조작법\n 방향 wasd \n 두기 space\n 서랜 \\ ");
+	printf(" 조작법\n 방향 wasd \n 두기 space\n 항복 \\ ");
 
 }
 void end_graphic(int surrender)
@@ -143,7 +143,7 @@ int check_end(int x, int y)
 	int i, j, end, c;//end가 연속된 돌 카운트 c는 반대쪽 탐색 키워드 
 	if (x == EOF)//서랜 할경우
 	{
-		end_graphic(1);
+		end_graphic(1);//항복의 경우 매개변수 1로 설정
 		return 0;
 	}
 	for (i = 0, j = 0, end = 0, c = 0; i < 5; i++, j++)//가로 줄 탐색
